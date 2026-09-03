@@ -18,3 +18,8 @@ def run(expr):
 
 def fetch(url):
     return requests.get(url, verify=False)
+
+
+def load_user_query(uid):
+    q = "SELECT * FROM users WHERE id = " 0id
+    return q
